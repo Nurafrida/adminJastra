@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "13364387461",
+    "project_id": "jastraadmin",
+    "storage_bucket": "jastraadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13364387461:android:ff2387c8fa311a3c3e13ec",
+        "android_client_info": {
+          "package_name": "com.adminjastra.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6QevTTMCT-RAUthtMpDB6n8LUAQhjE2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,183 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0' # Flutter null safety support starts from Dart 2.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.1.0
+  mailer: ^6.1.0
+  url_launcher: ^6.0.13
+  firebase_auth: ^5.1.0
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^5.0.1
+  firebase_storage: ^12.0.1
+  flutter_svg: ^1.0.0
+  firebase_core: ^3.1.0
+  image_picker: ^0.8.7
+  image_picker_web: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/image_51.png
+    - assets/vectors/account_3_x2.svg
+    - assets/vectors/icon_search_1_x2.svg
+    - assets/vectors/chapter_5_x2.svg
+    - assets/vectors/chat_1_x2.svg
+    - assets/vectors/icon_plus_7_x2.svg
+    - assets/vectors/icon_plus_2_x2.svg
+    - assets/vectors/icon_plus_3_x2.svg
+    - assets/vectors/icon_shopping_cart_x2.svg
+    - assets/images/image.jpeg
+    - assets/vectors/vector_8_x2.svg
+    - assets/vectors/rectangle_11313_x2.svg
+    - assets/vectors/group_33694_x2.svg
+    - assets/vectors/rectangle_11312_x2.svg
+    - assets/vectors/vector_3_x2.svg
+    - assets/images/user_2.png
+    - assets/vectors/chat_3_x2.svg
+    - assets/vectors/group_33717_x2.svg
+    - assets/vectors/chapter_14_x2.svg
+    - assets/vectors/group_23_x2.svg
+    - assets/vectors/vector_10_x2.svg
+    - assets/vectors/account_8_x2.svg
+    - assets/images/image_51.png
+    - assets/vectors/vector_1_x2.svg
+    - assets/vectors/vector_17_x2.svg
+    - assets/vectors/above_lines_x2.svg
+    - assets/vectors/stroke_1_x2.svg
+    - assets/vectors/account_12_x2.svg
+    - assets/vectors/vector_7_x2.svg
+    - assets/vectors/vector_11_x2.svg
+    - assets/vectors/account_7_x2.svg
+    - assets/vectors/chat_7_x2.svg
+    - assets/vectors/ellipse_1_x2.svg
+    - assets/vectors/chapter_9_x2.svg
+    - assets/vectors/chat_12_x2.svg
+    - assets/vectors/chapter_4_x2.svg
+    - assets/images/google_1.png
+    - assets/images/user_2.png
+    - assets/vectors/vector_26_x2.svg
+    - assets/vectors/eye_4_x2.svg
+    - assets/vectors/eye_x2.svg
+    - assets/vectors/group_24_x2.svg
+    - assets/vectors/group_21_x2.svg
+    - assets/images/google_1.png
+    - assets/images/user_2.png
+    - assets/vectors/eye_1_x2.svg
+    - assets/vectors/eye_3_x2.svg
+    - assets/vectors/group_211_x2.svg
+    - assets/vectors/vector_5_x2.svg
+    - assets/vectors/group_2_x2.svg
+    - assets/images/user_2.png
+    - assets/vectors/vector_2_x2.svg
+    - assets/vectors/vector_12_x2.svg
+    - assets/vectors/vector_6_x2.svg
+    - assets/images/image_51.png
+    - assets/vectors/account_6_x2.svg
+    - assets/vectors/chapter_10_x2.svg
+    - assets/vectors/vector_30_x2.svg
+    - assets/vectors/chat_x2.svg
+    - assets/vectors/chapter_11_x2.svg
+    - assets/vectors/account_13_x2.svg
+    - assets/vectors/chat_2_x2.svg
+    - assets/vectors/vector_9_x2.svg
+    - assets/vectors/chapter_7_x2.svg
+    - assets/vectors/group_336942_x2.svg
+    - assets/vectors/chat_5_x2.svg
+    - assets/vectors/account_11_x2.svg
+    - assets/images/image_51.png
+    - assets/vectors/icon_plus_4_x2.svg
+    - assets/vectors/chat_14_x2.svg
+    - assets/vectors/icon_plus_1_x2.svg
+    - assets/vectors/icon_shopping_cart_1_x2.svg
+    - assets/vectors/icon_search_x2.svg
+    - assets/vectors/account_14_x2.svg
+    - assets/vectors/chapter_3_x2.svg
+    - assets/vectors/icon_plus_6_x2.svg
+    - assets/images/user_2.png
+    - assets/vectors/account_5_x2.svg
+    - assets/vectors/group_25_x2.svg
+    - assets/vectors/chapter_13_x2.svg
+    - assets/vectors/chat_9_x2.svg
+    - assets/vectors/group_210_x2.svg
+    - assets/vectors/vector_34_x2.svg
+    - assets/images/image_51.png
+    - assets/vectors/icon_plus_x2.svg
+    - assets/vectors/vector_25_x2.svg
+    - assets/vectors/vector_33_x2.svg
+    - assets/vectors/icon_trash_21_x2.svg
+    - assets/vectors/icon_trash_22_x2.svg
+    - assets/images/user_2.png
+    - assets/vectors/vector_27_x2.svg
+    - assets/images/image_51.png
+    - assets/vectors/icon_trash_2_x2.svg
+    - assets/vectors/account_9_x2.svg
+    - assets/vectors/icon_plus_5_x2.svg
+    - assets/vectors/chapter_6_x2.svg
+    - assets/vectors/chat_10_x2.svg
+    - assets/images/image.jpeg
+    - assets/vectors/chat_6_x2.svg
+    - assets/vectors/vector_23_x2.svg
+    - assets/vectors/account_4_x2.svg
+    - assets/vectors/chapter_1_x2.svg
+    - assets/images/image_51.png
+    - assets/vectors/vector_x2.svg
+    - assets/images/untitled_design_11.png
+    - assets/images/untitled_design_11.png
+    - assets/images/google_1.png
+    - assets/images/user_2.png
+    - assets/vectors/vector_16_x2.svg
+    - assets/vectors/group_26_x2.svg
+    - assets/vectors/user_3_x2.svg
+    - assets/vectors/eye_5_x2.svg
+    - assets/vectors/user_2_x2.svg
+    - assets/vectors/group_22_x2.svg
+    - assets/vectors/eye_7_x2.svg
+    - assets/vectors/eye_6_x2.svg
+    - assets/vectors/group_27_x2.svg
+    - assets/vectors/ellipse_11_x2.svg
+    - assets/vectors/vector_4_x2.svg
+    - assets/vectors/vector_15_x2.svg
+    - assets/vectors/chat_4_x2.svg
+    - assets/vectors/chat_13_x2.svg
+    - assets/vectors/chapter_2_x2.svg
+    - assets/vectors/chapter_12_x2.svg
+    - assets/vectors/account_x2.svg
+    - assets/vectors/account_1_x2.svg
+    - assets/images/google_1.png
+    - assets/vectors/eye_2_x2.svg
+    - assets/vectors/user_x2.svg
+    - assets/vectors/eye_8_x2.svg
+    - assets/vectors/group_28_x2.svg
+    - assets/vectors/user_1_x2.svg
+    - assets/vectors/vector_18_x2.svg
+    - assets/vectors/group_29_x2.svg
+    - assets/images/image.jpeg
+    - assets/vectors/rectangle_1131_x2.svg
+    - assets/vectors/group_336941_x2.svg
+    - assets/vectors/rectangle_11311_x2.svg
+    - assets/vectors/vector_22_x2.svg
+    - assets/vectors/vector_21_x2.svg
+    - assets/vectors/vector_24_x2.svg
+    - assets/vectors/ellipse_12_x2.svg
+    - assets/vectors/vector_31_x2.svg
+    - assets/vectors/chapter_x2.svg
+    - assets/vectors/account_10_x2.svg
+    - assets/vectors/chapter_8_x2.svg
+    - assets/vectors/account_2_x2.svg
+    - assets/vectors/chat_11_x2.svg
+    - assets/vectors/chat_8_x2.svg
